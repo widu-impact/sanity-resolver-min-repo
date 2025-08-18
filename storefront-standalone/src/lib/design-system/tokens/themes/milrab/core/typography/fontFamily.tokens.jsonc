@@ -1,0 +1,12 @@
+{
+  "fontFamily": {
+    "primary": {
+      "value": "var(--fontfamily-primary-milrab, system-ui)",
+      "type": "fontFamilies"
+    },
+    "secondary": {
+      "value": "var(--fontfamily-primary-milrab, system-ui)",
+      "type": "fontFamilies"
+    }
+  }
+}

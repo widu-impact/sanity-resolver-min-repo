@@ -1,0 +1,26 @@
+{
+  "color": {
+    "green": {
+      "solid": {
+        "0": {
+          "value": "#EBF4E9",
+          "comment": "Light Green - Brand color for lighter backgrounds, for example: USP, Badge, Message Banner"
+        },
+        "300": {
+          "value": "#00A84A",
+          "comment": "Not on figma variables - used on Toogle"
+        },
+        "400": {
+          "value": "#3E4427",
+          "comment": "Dark green"
+        },
+        "500": {
+          "value": "#12231E",
+          "comment": "Dark green - Brand color for darker backgrounds, for example: footer, campaign badges"
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

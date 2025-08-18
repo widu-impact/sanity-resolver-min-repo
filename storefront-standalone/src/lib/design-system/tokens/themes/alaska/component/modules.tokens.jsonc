@@ -1,0 +1,12 @@
+{
+  "productCarousel": {
+    "background-1": {
+      "value": "{color.brown.solid.200}",
+      "comment": "Primary fill background."
+    },
+    "background-2": {
+      "value": "{color.grey.solid.0}",
+      "comment": "Secondary fill background."
+    }
+  }
+}

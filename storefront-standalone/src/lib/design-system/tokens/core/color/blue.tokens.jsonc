@@ -1,0 +1,18 @@
+{
+  "color": {
+    "blue": {
+      "solid": {
+        "0": {
+          "value": "#D1E3FF",
+          "comment": "Deals Light - Blue color for Message Banner and Campaigns"
+        },
+        "100": {
+          "value": "#0D49A5",
+          "comment": "Deals Dark - Blue color for Text on Deals Badge."
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "extends": "./src/lib/ts-config/base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.mts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.mjs",
+    "postcss.config.mjs",
+    ".eslintrc.cjs",
+    "global.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}

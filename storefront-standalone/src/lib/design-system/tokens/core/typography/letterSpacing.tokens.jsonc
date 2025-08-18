@@ -1,0 +1,27 @@
+// Named 1:1 with percentage deviation from default (0%)
+// If the value is negative, they should be placed in the "tighter" group.
+// If the value is positive, they should be placed in the "wider" group.
+{
+  "letterSpacing": {
+    "tighter": {
+      "sm": {
+        "value": "0",
+        "type": "letterSpacing"
+      },
+      "md": {
+        "value": "-2%",
+        "type": "letterSpacing"
+      }
+    },
+    "wider": {
+      "sm": {
+        "value": "1%",
+        "type": "letterSpacing"
+      },
+      "md": {
+        "value": "2%",
+        "type": "letterSpacing"
+      }
+    }
+  }
+}

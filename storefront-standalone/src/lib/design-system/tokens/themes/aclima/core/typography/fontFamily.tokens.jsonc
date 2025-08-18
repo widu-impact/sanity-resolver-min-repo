@@ -1,0 +1,8 @@
+{
+  "fontFamily": {
+    "primary": {
+      "value": "var(--fontfamily-primary-aclima, system-ui)",
+      "type": "fontFamilies"
+    }
+  }
+}

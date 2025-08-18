@@ -1,0 +1,12 @@
+{
+  "productCarousel": {
+    "background-1": {
+      "value": "{color.purple.solid.0}",
+      "comment": "Outlet fill background."
+    },
+    "background-2": {
+      "value": "{color.green.solid.200}",
+      "comment": "New fill background."
+    }
+  }
+}

@@ -1,0 +1,85 @@
+// Campaigns tokens are used for the campaigns related components in the design system.
+{
+  "campaigns": {
+    "boozt-enabled": {
+      "fill": {
+        "value": "{color.red.solid.200}"
+      },
+      "text": {
+        "value": "{color.red.solid.0}"
+      }
+    },
+    "boozt-disabled": {
+      "fill": {
+        "value": "{color.grey.solid.1100}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "campaign": {
+      "fill": {
+        "value": "{color.red.solid.0}"
+      },
+      "text": {
+        "value": "{color.red.solid.200}"
+      }
+    },
+    "campaign-inverted": {
+      "fill": {
+        "value": "{color.red.solid.200}"
+      },
+      "text": {
+        "value": "{color.red.solid.0}"
+      }
+    },
+    "deals": {
+      "fill": {
+        "value": "{color.blue.solid.0}"
+      },
+      "text": {
+        "value": "{color.blue.solid.100}"
+      }
+    },
+    "sustainable": {
+      "fill": {
+        "value": "{color.green.solid.0}"
+      },
+      "text": {
+        "value": "{color.green.solid.400}"
+      }
+    },
+    "outlet": {
+      "fill": {
+        "value": "{color.purple.solid.0}"
+      },
+      "text": {
+        "value": "{color.purple.solid.100}"
+      }
+    },
+    "new": {
+      "fill": {
+        "value": "{color.green.solid.400}"
+      },
+      "text": {
+        "value": "{color.green.solid.0}"
+      }
+    },
+    "review": {
+      "fill": {
+        "value": "transparent"
+      },
+      "text": {
+        "value": "{color.grey.solid.1000}"
+      }
+    },
+    "milrab-grey": {
+      "fill": {
+        "value": "{color.grey.solid.50}"
+      },
+      "text": {
+        "value": "{color.grey.solid.1200}"
+      }
+    }
+  }
+}

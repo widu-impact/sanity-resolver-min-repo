@@ -1,0 +1,49 @@
+// Stroke colors in light mode.
+// Since the core colors has transparency, the colors should work on most surface/backgrounds.
+// If working with solid colors, more tokens can be added if need be.
+{
+  "color": {
+    "type": "color",
+    "stroke": {
+      // Base
+      "strong": {
+        "value": "{color.grey.solid.700}",
+        "comment": "Non-decorative borders on interface elements like form input fields."
+      },
+      "weak": {
+        "value": "{color.grey.solid.300}",
+        "comment": "Decorative borders, like dividing lines, that aren’t critical to identifying interface elements."
+      },
+      "weaker": {
+        "value": "{color.grey.solid.100}",
+        "comment": "Decorative borders, like dividing lines, that aren’t critical to identifying interface elements."
+      },
+
+      // State
+      "initial": {
+        "value": "{color.grey.solid.200}",
+        "comment": "Borders of components (Text input) in their initial state."
+      },
+      "selected": {
+        "value": "{color.green.solid.400}",
+        "comment": "Borders of currently selected elements like tabs."
+      },
+      "focus": {
+        "value": "{color.blue.solid.100}",
+        "comment": "Focus ring of elements in a focus state."
+      },
+      "disabled": {
+        "value": "{color.grey.solid.300}",
+        "comment": "Borders of elements in a disabled state, like disabled buttons."
+      },
+
+      // Product Detail Page
+      "product-border": {
+        "value": "{color.grey.solid.50}"
+      },
+      "product-selected": {
+        "value": "{color.grey.solid.1000}"
+      }
+    }
+  }
+}

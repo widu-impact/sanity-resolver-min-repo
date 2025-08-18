@@ -1,0 +1,22 @@
+{
+  "facets": {
+    "background": {
+      "value": "{color.grey.solid.0}",
+      "comment": "Facets background color."
+    },
+    "gap": {
+      "value": "{spacing.8}",
+      "comment": "Gap between facets."
+    },
+    "border": {
+      "color": {
+        "value": "{color.grey.solid.200}",
+        "comment": "Facets Stroke color."
+      },
+      "stroke": {
+        "value": "1px",
+        "comment": "Facets border around radius."
+      }
+    }
+  }
+}

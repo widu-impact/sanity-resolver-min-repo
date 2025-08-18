@@ -1,0 +1,18 @@
+{
+  "badge": {
+    "corners": {
+      "value": "none",
+      "comment": "Display for badge."
+    },
+    "spacing": {
+      "value": "{spacing.8}",
+      "comment": "Spacing inline for badge."
+    },
+    "text": {
+      "fontWeight": {
+        "value": "{fontWeight.regular}",
+        "comment": "Font weight for badge text."
+      }
+    }
+  }
+}

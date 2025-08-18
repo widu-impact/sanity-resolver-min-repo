@@ -1,0 +1,12 @@
+{
+  "color": {
+    "red": {
+      "solid": {
+        "200": {
+          "value": "#E31E1E",
+          "comment": "Darker Red to Campaign Badge, both text and background"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "header": {
+    "basket": {
+      "tone": {
+        "value": "{color.grey.solid.1200}",
+        "comment": "Tone for the quantity link"
+      },
+      "badge": {
+        "text": {
+          "color": {
+            "value": "{color.grey.solid.0}",
+            "comment": "Text color for the quantity"
+          }
+        }
+      }
+    }
+  }
+}

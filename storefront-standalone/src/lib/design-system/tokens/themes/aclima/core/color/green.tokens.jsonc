@@ -1,0 +1,16 @@
+{
+  "color": {
+    "green": {
+      "solid": {
+        "200": {
+          "value": "#83B13C",
+          "comment": "Green"
+        },
+        "300": {
+          "value": "#36573B",
+          "comment": "Darkest green"
+        }
+      }
+    }
+  }
+}

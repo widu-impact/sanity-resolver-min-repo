@@ -1,0 +1,12 @@
+{
+  "usp": {
+    "fill": {
+      "value": "{color.green.solid.0}",
+      "comment": "Text for USP."
+    },
+    "text": {
+      "value": "{color.green.solid.400}",
+      "comment": "Text for USP."
+    }
+  }
+}

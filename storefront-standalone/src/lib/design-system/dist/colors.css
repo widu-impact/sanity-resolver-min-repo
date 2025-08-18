@@ -1,0 +1,155 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 15 Aug 2025 19:46:58 GMT
+ */
+
+:root {
+  --color-background-base: #FFFFFF; /* Default background with no elevation */
+  --color-background-alternate: #EBF4E9; /* Low contrast background to help differentiate certain areas like USP and some banners. */
+  --color-background-brand: #125531; /* High contrast background that helps convey the brand personality. */
+  --color-background-inverse: #343432; /* High contrast background to help differentiate certain areas of a page. */
+  --color-fill-solid: #333333; /* Neutral fill for high contrast foreground components, like buttons. */
+  --color-fill-weakest: #FCFCFC; /* Weakest grey: used on Checkout section background */
+  --color-fill-weaker: #F5F5F5; /* Weaker grey: used on Scroll bars background */
+  --color-fill-weak: #D2D2D1; /* Neutral fill: used on Scroll bars background */
+  --color-fill-strong: #1D1D1B; /* Strong grey: used on Scroll bar truck */
+  --color-fill-initial: #E8E8E8; /* Fill for interactive elements in their initial state. */
+  --color-fill-hover: #D2D2D1; /* Fill for interactive elements in a hover state. */
+  --color-fill-active: #D2D2D1; /* Fill for interactive elements in a press state. */
+  --color-fill-selected: #125531; /* Fill for interactive elements in a selected state. */
+  --color-fill-checked: #125531; /* Checked on input checkbox and radio */
+  --color-fill-disabled: #F5F5F5; /* Fill for interactive elements in a disabled state (button). */
+  --color-fill-overlay: #33333330; /* Overlay - Fill for transparent page overlays behind modal dialogs. */
+  --color-fill-brand: #125531; /* Fill for high contrast interactive elements like buttons. */
+  --color-fill-info: #D1E3FF; /* Fill for high contrast elements that convey neutral information. */
+  --color-fill-success: #EBF4E9; /* Fill for high contrast elements that indicate a positive message. */
+  --color-fill-warning: #FFE59B; /* Fill for high contrast elements that warn people to be cautious. */
+  --color-fill-error: #FDD8D1; /* Fill for low contrast elements that indicate a negative message like error alerts and badges. */
+  --color-fill-inverse-strong: #FFFFFF; /* Neutral fill for high contrast foreground components on high contrast backgrounds. */
+  --color-fill-inverse-weak: #8E8E8D; /* Neutral fill for low contrast foreground components on high contrast backgrounds. */
+  --color-fill-inverse-hover: #8E8E8D; /* Fill for interactive elements on high contrast backgrounds in a hover state. */
+  --color-fill-inverse-active: #A5A5A4; /* Fill for interactive elements on high contrast backgrounds in a press state. */
+  --color-fill-inverse-disabled: #E8E8E8; /* Fill for interactive elements on high contrast backgrounds in a disabled state. */
+  --color-fill-bg-bar: #F5F5F5;
+  --color-fill-product-image: #F5F5F5;
+  --color-fill-product-card-image: #1D1D1B0A;
+  --color-fill-review-progress-bar-base: #1D1D1B0A;
+  --color-fill-review-progress-bar-active: #52A456;
+  --color-stroke-strong: #61615F; /* Non-decorative borders on interface elements like form input fields. */
+  --color-stroke-weak: #BBBBBB; /* Decorative borders, like dividing lines, that aren’t critical to identifying interface elements. */
+  --color-stroke-weaker: #E8E8E8; /* Decorative borders, like dividing lines, that aren’t critical to identifying interface elements. */
+  --color-stroke-initial: #D2D2D1; /* Borders of components (Text input) in their initial state. */
+  --color-stroke-selected: #125531; /* Borders of currently selected elements like tabs. */
+  --color-stroke-focus: #0D49A5; /* Focus ring of elements in a focus state. */
+  --color-stroke-disabled: #BBBBBB; /* Borders of elements in a disabled state, like disabled buttons. */
+  --color-stroke-product-border: #F5F5F5;
+  --color-stroke-product-selected: #333333;
+  --color-text-solid: #333333; /* Primary text, like headings, body content, and form labels to ensure it’s prominent and legible. - don't change on DIM */
+  --color-text-button: #FFFFFF; /* Primary text, like headings, body content, and form labels to ensure it’s prominent and legible. - don't change on DIM */
+  --color-text-strong: #333333; /* Text colors that change on DIM surfaces. */
+  --color-text-weak: #8E8E8D; /* Secondary text to make it less prominent. */
+  --color-text-campaign: #BE2100; /* Text color for campaign price. */
+  --color-text-initial: #777776; /* Text used in elements with a disabled state, like disabled buttons. */
+  --color-text-disabled: #D2D2D1; /* Text used in elements with a disabled state, like disabled buttons. */
+  --color-text-select-disabled: #8E8E8D; /* Text used in elements with Select Disabled State. */
+  --color-text-brand: #125531; /* Text links to help indicate they’re interactive. */
+  --color-text-brand-black: #1D1D1B;
+  --color-text-info: #0D49A5; /* Text that indicates a neutral message such as an information. */
+  --color-text-success: #125531; /* Fill for high contrast elements that indicate a positive message. */
+  --color-text-warning: #FAB51D; /* Text that indicates a neutral message such as an information. */
+  --color-text-error: #BE2100; /* Text that indicates a negative message such as an error that needs urgent attention. */
+  --color-text-inverse-strong: #FFFFFF; /* Primary text on high contrast backgrounds. */
+  --color-text-inverse-success: #FFFFFF; /* Fill for high contrast elements that indicate a positive message. */
+  --color-text-inverse-error: #FFFFFF; /* Text that indicates a negative message such as an error that needs urgent attention. */
+  --color-blue-solid-0: #D1E3FF; /* Deals Light - Blue color for Message Banner and Campaigns */
+  --color-blue-solid-100: #0D49A5; /* Deals Dark - Blue color for Text on Deals Badge. */
+  --color-green-solid-0: #EBF4E9; /* Light Green - Brand color for lighter backgrounds, for example: USP, Badge, Message Banner */
+  --color-green-solid-100: #D6F5CA; /* Sustainable Light - Brand color for lighter backgrounds. */
+  --color-green-solid-200: #A0F5AD; /* Green used on Message Banner and on Success messages */
+  --color-green-solid-300: #52A456; /* Not on figma variables - used on Toogle */
+  --color-green-solid-400: #125531; /* Primary Green - Brand color for darker backgrounds, for example: footer, campaign badges */
+  --color-grey-solid-0: #FFFFFF; /* Primary White */
+  --color-grey-solid-25: #FCFCFC; /* Grey 25 */
+  --color-grey-solid-30: #1D1D1B0A; /* Grey 30 - Product card image usage */
+  --color-grey-solid-50: #F5F5F5; /* Grey 50 */
+  --color-grey-solid-100: #E8E8E8; /* Grey 100 */
+  --color-grey-solid-200: #D2D2D1; /* Grey 200 */
+  --color-grey-solid-300: #BBBBBB; /* Grey 300 */
+  --color-grey-solid-400: #A5A5A4; /* Grey 400 */
+  --color-grey-solid-500: #8E8E8D; /* Grey 500 */
+  --color-grey-solid-600: #777776; /* Grey 600 */
+  --color-grey-solid-700: #61615F; /* Grey 700 */
+  --color-grey-solid-800: #4A4A49; /* Grey 800 */
+  --color-grey-solid-900: #343432; /* Grey 900 */
+  --color-grey-solid-1000: #333333; /* Primary Black */
+  --color-grey-solid-1100: #1D1D1B; /* Secondary Black (Eerie Black) */
+  --color-grey-solid-1200: #000000; /* Black */
+  --color-grey-light-500: #33333330; /* Overlay color */
+  --color-purple-solid-0: #D9CDFF; /* Outlet Light - Purple color for Background on Outlet Badge. */
+  --color-purple-solid-100: #391960; /* Outlet Dark - Purple color for Text on Outlet Badge. */
+  --color-red-solid-0: #FDD8D1; /* Discount Light - Lighter Red to Campaign Badge, both text and background */
+  --color-red-solid-100: #F05252; /* Red - Input / Textarea errors */
+  --color-red-solid-200: #BE2100; /* Darker Red to Campaign Badge, both text and background */
+  --color-yellow-solid-0: #FFE59B; /* Decorative borders, like dividing lines, that are not critical to identifying interface elements. */
+  --color-yellow-solid-100: #FAB51D; /* Non-decorative borders on interface elements like alerts and badges. Also used for icons. */
+  --campaigns-boozt-enabled-fill: #BE2100;
+  --campaigns-boozt-enabled-text: #FDD8D1;
+  --campaigns-boozt-disabled-fill: #1D1D1B;
+  --campaigns-boozt-disabled-text: #FFFFFF;
+  --campaigns-campaign-fill: #FDD8D1;
+  --campaigns-campaign-text: #BE2100;
+  --campaigns-campaign-inverted-fill: #BE2100;
+  --campaigns-campaign-inverted-text: #FDD8D1;
+  --campaigns-deals-fill: #D1E3FF;
+  --campaigns-deals-text: #0D49A5;
+  --campaigns-sustainable-fill: #EBF4E9;
+  --campaigns-sustainable-text: #125531;
+  --campaigns-outlet-fill: #D9CDFF;
+  --campaigns-outlet-text: #391960;
+  --campaigns-new-fill: #125531;
+  --campaigns-new-text: #EBF4E9;
+  --campaigns-review-fill: transparent;
+  --campaigns-review-text: #333333;
+  --campaigns-milrab-grey-fill: #F5F5F5;
+  --campaigns-milrab-grey-text: #000000;
+  --color-swatches-brown: #84623E;
+  --color-swatches-red: #BE2100;
+  --color-swatches-orange: #F18E2A;
+  --color-swatches-yellow: #FAB51D;
+  --color-swatches-green: #125531;
+  --color-swatches-blue: #2C6BCC;
+  --color-swatches-purple: #391960;
+  --color-swatches-pink: #C87ABC;
+  --color-swatches-grey: #61615F;
+  --color-swatches-beige: #EDE8D0;
+  --color-swatches-white: #FFFFFF;
+  --color-swatches-black: #1D1D1B;
+  --font-family-primary: var(--fontfamily-primary, system-ui);
+  --font-family-secondary: var(--fontfamily-secondary, system-ui);
+  --font-size-10: 10px;
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-22: 22px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-32: 32px;
+  --font-size-36: 36px;
+  --font-size-40: 40px;
+  --font-size-44: 44px;
+  --font-size-48: 48px;
+  --font-size-72: 72px;
+  --font-weight-regular: 400;
+  --font-weight-semi-bold: 500;
+  --font-weight-bold: 600;
+  --letter-spacing-tighter-sm: 0em;
+  --letter-spacing-tighter-md: -0.02em;
+  --letter-spacing-wider-sm: 0.01em;
+  --letter-spacing-wider-md: 0.02em;
+  --line-height-110: 1.1em;
+  --line-height-120: 1.2em;
+  --line-height-130: 1.3em;
+  --line-height-150: 1.5em;
+}

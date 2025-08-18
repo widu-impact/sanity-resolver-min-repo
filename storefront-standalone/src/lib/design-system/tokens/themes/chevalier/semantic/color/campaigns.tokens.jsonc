@@ -1,0 +1,69 @@
+// Campaigns tokens are used for the campaigns related components in the design system.
+{
+  "campaigns": {
+    "campaign": {
+      "fill": {
+        "value": "{color.grey.solid.200}"
+      },
+      "text": {
+        "value": "{color.grey.solid.1200}"
+      }
+    },
+    "campaign-inverted": {
+      "fill": {
+        "value": "{color.red.solid.300}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "deals": {
+      "fill": {
+        "value": "{color.blue.solid.200}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "new": {
+      "fill": {
+        "value": "{color.green.solid.300}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "outlet": {
+      "fill": {
+        "value": "{color.brown.solid.300}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "sustainable": {
+      "fill": {
+        "value": "{color.yellow.solid.200}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "review": {
+      "fill": {
+        "value": "transparent"
+      },
+      "text": {
+        "value": "{color.grey.solid.1000}"
+      }
+    },
+    "milrab-grey": {
+      "fill": {
+        "value": "{color.grey.solid.50}"
+      },
+      "text": {
+        "value": "{color.grey.solid.1200}"
+      }
+    }
+  }
+}

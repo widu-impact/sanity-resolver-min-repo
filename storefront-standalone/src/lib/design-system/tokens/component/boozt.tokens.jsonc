@@ -1,0 +1,12 @@
+{
+  "boozt": {
+    "fill": {
+      "value": "{color.grey.solid.1200}",
+      "comment": "Fill for Boozt price."
+    },
+    "text": {
+      "value": "{color.grey.solid.0}",
+      "comment": "Text for Boozt price."
+    }
+  }
+}

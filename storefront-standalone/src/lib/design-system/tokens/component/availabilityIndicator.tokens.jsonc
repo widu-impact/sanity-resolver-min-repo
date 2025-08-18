@@ -1,0 +1,22 @@
+{
+  "availability-indicator": {
+    "fill": {
+      "in-stock": {
+        "value": "#52A456",
+        "comment": "Swatch color for products that are in stock"
+      },
+      "in-stock-few-left": {
+        "value": "#FAB51D",
+        "comment": "Swatch color when only a few items remain"
+      },
+      "out-of-stock": {
+        "value": "#8E8E8D",
+        "comment": "Swatch color when the product is sold out"
+      }
+    },
+    "text": {
+      "value": "{color.grey.solid.500}",
+      "comment": "Text color for the PDP/PLP variant label"
+    }
+  }
+}

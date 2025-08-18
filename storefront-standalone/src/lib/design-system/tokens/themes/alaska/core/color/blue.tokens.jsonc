@@ -1,0 +1,18 @@
+{
+  "color": {
+    "blue": {
+      "solid": {
+        "200": {
+          "value": "#002C40",
+          "comment": "Accent Blue"
+        },
+        "300": {
+          "value": "#0F1419",
+          "comment": "Dark Blue"
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

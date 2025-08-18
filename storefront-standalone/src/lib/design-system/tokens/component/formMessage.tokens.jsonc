@@ -1,0 +1,70 @@
+{
+  "form-message": {
+    "default": {
+      "primary": {
+        "background": {
+          "value": "transparent",
+          "comment": "Background color for the form message"
+        },
+        "text": {
+          "value": "{color.grey.solid.1000}",
+          "comment": "Text color for the form message"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "transparent",
+          "comment": "Background color for the form message when inverted"
+        },
+        "text": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Text color for the form message when inverted"
+        }
+      }
+    },
+    "error": {
+      "primary": {
+        "background": {
+          "value": "transparent",
+          "comment": "Background color for the form message"
+        },
+        "text": {
+          "value": "{color.red.solid.200}",
+          "comment": "Text color for the form message"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "transparent",
+          "comment": "Background color for the form message when inverted"
+        },
+        "text": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Text color for the form message when inverted"
+        }
+      }
+    },
+    "success": {
+      "primary": {
+        "background": {
+          "value": "transparent",
+          "comment": "Background color for the form message"
+        },
+        "text": {
+          "value": "{color.green.solid.400}",
+          "comment": "Text color for the form message"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "transparent",
+          "comment": "Background color for the form message when inverted"
+        },
+        "text": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Text color for the form message when inverted"
+        }
+      }
+    }
+  }
+}

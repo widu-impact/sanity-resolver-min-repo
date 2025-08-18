@@ -1,0 +1,22 @@
+{
+  "color": {
+    "red": {
+      "solid": {
+        "0": {
+          "value": "#FDD8D1",
+          "comment": "Discount Light - Lighter Red to Campaign Badge, both text and background"
+        },
+        "100": {
+          "value": "#F05252",
+          "comment": "Red - Input / Textarea errors"
+        },
+        "200": {
+          "value": "#BE2100",
+          "comment": "Darker Red to Campaign Badge, both text and background"
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

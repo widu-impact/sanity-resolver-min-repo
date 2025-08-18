@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base",
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "allowJs": false,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "module": "ESNext",
+    // This has to be at least `bundler` because it will allow us to use `exports` filed in `package.json`
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "target": "ES2023",
+    "erasableSyntaxOnly": true,
+    // Preserve because our bundlers will convert it later on
+    "jsx": "preserve",
+    "noEmit": true,
+    "incremental": true
+  },
+  "exclude": ["node_modules"]
+}

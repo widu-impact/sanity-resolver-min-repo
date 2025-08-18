@@ -1,0 +1,18 @@
+{
+  "breadcrumbs": {
+    "color": {
+      "item": {
+        "text": {
+          "value": "{color.grey.solid.600}",
+          "comment": "Text color for each breadcrumb item"
+        }
+      },
+      "separator": {
+        "background": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Background behind the breadcrumb separator icon"
+        }
+      }
+    }
+  }
+}

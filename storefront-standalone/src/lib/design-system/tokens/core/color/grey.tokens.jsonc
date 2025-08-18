@@ -1,0 +1,79 @@
+{
+  "color": {
+    "grey": {
+      "solid": {
+        "0": {
+          "value": "#FFFFFF",
+          "comment": "Primary White"
+        },
+        "25": {
+          "value": "#FCFCFC",
+          "comment": "Grey 25"
+        },
+        "30": {
+          "value": "#1D1D1B0A",
+          "comment": "Grey 30 - Product card image usage"
+        },
+        "50": {
+          "value": "#F5F5F5",
+          "comment": "Grey 50"
+        },
+        "100": {
+          "value": "#E8E8E8",
+          "comment": "Grey 100"
+        },
+        "200": {
+          "value": "#D2D2D1",
+          "comment": "Grey 200"
+        },
+        "300": {
+          "value": "#BBBBBB",
+          "comment": "Grey 300"
+        },
+        "400": {
+          "value": "#A5A5A4",
+          "comment": "Grey 400"
+        },
+        "500": {
+          "value": "#8E8E8D",
+          "comment": "Grey 500"
+        },
+        "600": {
+          "value": "#777776",
+          "comment": "Grey 600"
+        },
+        "700": {
+          "value": "#61615F",
+          "comment": "Grey 700"
+        },
+        "800": {
+          "value": "#4A4A49",
+          "comment": "Grey 800"
+        },
+        "900": {
+          "value": "#343432",
+          "comment": "Grey 900"
+        },
+        "1000": {
+          "value": "#333333",
+          "comment": "Primary Black"
+        },
+        "1100": {
+          "value": "#1D1D1B",
+          "comment": "Secondary Black (Eerie Black)"
+        },
+        "1200": {
+          "value": "#000000",
+          "comment": "Black"
+        }
+      },
+      "light": {
+        "500": {
+          "value": "#33333330",
+          "comment": "Overlay color"
+        }
+      },
+      "dark": {}
+    }
+  }
+}

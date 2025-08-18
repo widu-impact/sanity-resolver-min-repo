@@ -1,0 +1,23 @@
+{
+  "blur": {
+    "size": {
+      "sm": {
+        "value": "blur(25px)"
+      },
+      "md": {
+        "value": "blur(37.5px)"
+      },
+      "lg": {
+        "value": "blur(50px)"
+      }
+    },
+    "tone": {
+      "default": {
+        "value": "rgba(0, 0, 0, 0.01)"
+      },
+      "darker": {
+        "value": "rgba(0, 0, 0, 0.5)"
+      }
+    }
+  }
+}

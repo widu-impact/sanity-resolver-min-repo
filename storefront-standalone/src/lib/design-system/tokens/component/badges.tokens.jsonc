@@ -1,0 +1,18 @@
+{
+  "badge": {
+    "corners": {
+      "value": "flex",
+      "comment": "Display for badge."
+    },
+    "spacing": {
+      "value": "{spacing.4}",
+      "comment": "Spacing inline for badge."
+    },
+    "text": {
+      "fontWeight": {
+        "value": "{fontWeight.semiBold}",
+        "comment": "Font weight for badge text."
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/* @import '@internal/design-system/css/base'; */
+/* @import '@internal/design-system/css/color'; */
+@import "css-reset.css";
+@import "variables.css";
+@import "main.css";

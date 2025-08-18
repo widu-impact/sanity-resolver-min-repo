@@ -1,0 +1,40 @@
+{
+  "color": {
+    "grey": {
+      "solid": {
+        "0": {
+          "value": "#FFFFFF",
+          "comment": "Primary White"
+        },
+        "50": {
+          "value": "#F5F5F5",
+          "comment": "Grey 50"
+        },
+        "200": {
+          "value": "#E2E1DC",
+          "comment": "Grey 200"
+        },
+        "300": {
+          "value": "#AAB3B2",
+          "comment": "Grey 300"
+        },
+        "900": {
+          "value": "#494F4D",
+          "comment": "Grey 900"
+        },
+        "1000": {
+          "value": "#12231E",
+          "comment": "Brand Black"
+        },
+        "1100": {
+          "value": "#1D1D1B",
+          "comment": "Secondary Black (Eerie Black)"
+        },
+        "1200": {
+          "value": "#000000",
+          "comment": "Black"
+        }
+      }
+    }
+  }
+}

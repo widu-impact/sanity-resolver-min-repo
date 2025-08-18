@@ -1,0 +1,21 @@
+// Named 1:1 with percentage.
+{
+  "lineHeight": {
+    "110": {
+      "value": "110%",
+      "type": "lineHeight"
+    },
+    "120": {
+      "value": "120%",
+      "type": "lineHeight"
+    },
+    "130": {
+      "value": "130%",
+      "type": "lineHeight"
+    },
+    "150": {
+      "value": "150%",
+      "type": "lineHeight"
+    }
+  }
+}

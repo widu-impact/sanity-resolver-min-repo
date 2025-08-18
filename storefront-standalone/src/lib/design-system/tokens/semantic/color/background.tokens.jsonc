@@ -1,0 +1,28 @@
+// Background provide a background color for large surfaces like the site background, menu, cards etc.
+{
+  "color": {
+    "type": "color",
+    "background": {
+      "base": {
+        "value": "{color.grey.solid.0}",
+        "extensions": { "is-dim": false },
+        "comment": "Default background with no elevation"
+      },
+      "alternate": {
+        "value": "{color.green.solid.0}",
+        "extensions": { "is-dim": false },
+        "comment": "Low contrast background to help differentiate certain areas like USP and some banners."
+      },
+      "brand": {
+        "value": "{color.green.solid.400}",
+        "extensions": { "is-dim": true },
+        "comment": "High contrast background that helps convey the brand personality."
+      },
+      "inverse": {
+        "value": "{color.grey.solid.900}",
+        "extensions": { "is-dim": true },
+        "comment": "High contrast background to help differentiate certain areas of a page."
+      }
+    }
+  }
+}

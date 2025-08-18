@@ -1,0 +1,34 @@
+{
+  "color": {
+    "brown": {
+      "solid": {
+        "0": {
+          "value": "#F6E7D7",
+          "comment": "Beige"
+        },
+        "100": {
+          "value": "#DDDAD6",
+          "comment": "Medium Beige"
+        },
+        "200": {
+          "value": "#B19F7B",
+          "comment": "Gold Beige"
+        },
+        "300": {
+          "value": "#856A49",
+          "comment": "Light Brown"
+        },
+        "400": {
+          "value": "#56432E",
+          "comment": "Medium Brown"
+        },
+        "500": {
+          "value": "#372924",
+          "comment": "Dark Brown"
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

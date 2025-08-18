@@ -1,0 +1,69 @@
+// Uses modified and rounded minor third scale with a base of 16px, which means each size is roughly 1.2 times larger than the previous
+// Named 1:1 with pixel value.
+// Easier to grasph the value when using in semantic or component tokens.
+// Easier to add more tokens if needed
+// If exposing these tokens, then using t-shirt sizes would be preferable
+{
+  "fontSize": {
+    "10": {
+      "value": "10px",
+      "type": "fontSizes"
+    },
+    "12": {
+      "value": "12px",
+      "type": "fontSizes"
+    },
+    "14": {
+      "value": "14px",
+      "type": "fontSizes"
+    },
+    "16": {
+      "value": "16px",
+      "type": "fontSizes"
+    },
+    "18": {
+      "value": "18px",
+      "type": "fontSizes"
+    },
+    "20": {
+      "value": "20px",
+      "type": "fontSizes"
+    },
+    "22": {
+      "value": "22px",
+      "type": "fontSizes"
+    },
+    "24": {
+      "value": "24px",
+      "type": "fontSizes"
+    },
+    "28": {
+      "value": "28px",
+      "type": "fontSizes"
+    },
+    "32": {
+      "value": "32px",
+      "type": "fontSizes"
+    },
+    "36": {
+      "value": "36px",
+      "type": "fontSizes"
+    },
+    "40": {
+      "value": "40px",
+      "type": "fontSizes"
+    },
+    "44": {
+      "value": "44px",
+      "type": "fontSizes"
+    },
+    "48": {
+      "value": "48px",
+      "type": "fontSizes"
+    },
+    "72": {
+      "value": "72px",
+      "type": "fontSizes"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "color": {
+    "blue": {
+      "solid": {
+        "200": {
+          "value": "#42A4EA",
+          "comment": "Blue"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "footer": {
+    "color": {
+      "background": {
+        "value": "{color.grey.solid.1200}",
+        "comment": "Background color for the footer"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}",
+        "comment": "Background color for the footer"
+      }
+    },
+    "newsletter": {
+      "description": {
+        "border-color": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Border color for the newsletter description"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+// Color swatches for products
+{
+  "color:": {
+    "type": "color",
+    "swatches": {
+      "brown": {
+        "value": "#84623E"
+      },
+      "red": {
+        "value": "#BE2100"
+      },
+      "orange": {
+        "value": "#F18E2A"
+      },
+      "yellow": {
+        "value": "#FAB51D"
+      },
+      "green": {
+        "value": "#125531"
+      },
+      "blue": {
+        "value": "#2C6BCC"
+      },
+      "purple": {
+        "value": "#391960"
+      },
+      "pink": {
+        "value": "#C87ABC"
+      },
+      "grey": {
+        "value": "#61615F"
+      },
+      "beige": {
+        "value": "#EDE8D0"
+      },
+      "white": {
+        "value": "#FFFFFF"
+      },
+      "black": {
+        "value": "#1D1D1B"
+      }
+    }
+  }
+}

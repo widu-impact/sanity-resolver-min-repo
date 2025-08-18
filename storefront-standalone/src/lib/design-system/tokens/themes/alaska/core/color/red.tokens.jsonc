@@ -1,0 +1,18 @@
+{
+  "color": {
+    "red": {
+      "solid": {
+        "300": {
+          "value": "#B93B29",
+          "comment": "Accent Red"
+        },
+        "400": {
+          "value": "#E31E1E",
+          "comment": "Status Red"
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

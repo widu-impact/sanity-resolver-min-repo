@@ -1,0 +1,16 @@
+{
+  "color": {
+    "grey": {
+      "solid": {
+        "50": {
+          "value": "#F4F4F4",
+          "comment": "Grey 50"
+        },
+        "400": {
+          "value": "#9D9594",
+          "comment": "Grey 400"
+        }
+      }
+    }
+  }
+}

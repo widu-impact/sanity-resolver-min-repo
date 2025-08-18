@@ -1,0 +1,12 @@
+{
+  "fontFamily": {
+    "primary": {
+      "value": "var(--fontfamily-primary-alaska, system-ui)",
+      "type": "fontFamilies"
+    },
+    "secondary": {
+      "value": "var(--fontfamily-secondary-alaska, system-ui)",
+      "type": "fontFamilies"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+// fill colors in light mode.
+// Since the core colors has transparency, the colors should work on most surface/backgrounds.
+// If working with solid colors, more tokens can be added if need be.
+{
+  "color": {
+    "type": "color",
+    "fill": {
+      "solid": {
+        "value": "{color.grey.solid.1000}",
+        "comment": "Neutral fill for high contrast foreground components, like buttons."
+      },
+      // Base
+      "weakest": {
+        "value": "{color.grey.solid.25}",
+        "comment": "Weakest grey: used on Checkout section background"
+      },
+      "weaker": {
+        "value": "{color.grey.solid.50}",
+        "comment": "Weaker grey: used on Scroll bars background"
+      },
+      "weak": {
+        "value": "{color.grey.solid.200}",
+        "comment": "Neutral fill: used on Scroll bars background"
+      },
+      "strong": {
+        "value": "{color.grey.solid.1100}",
+        "comment": "Strong grey: used on Scroll bar truck"
+      },
+      // State
+      "initial": {
+        "value": "{color.grey.solid.100}",
+        "comment": "Fill for interactive elements in their initial state."
+      },
+      "hover": {
+        "value": "{color.grey.solid.200}",
+        "comment": "Fill for interactive elements in a hover state."
+      },
+      "active": {
+        "value": "{color.grey.solid.200}",
+        "comment": "Fill for interactive elements in a press state."
+      },
+      "selected": {
+        "value": "{color.grey.solid.900}",
+        "comment": "Fill for interactive elements in a selected state."
+      },
+      "checked": {
+        "value": "{color.grey.solid.900}",
+        "comment": "Checked on input checkbox and radio"
+      },
+      "disabled": {
+        "value": "{color.grey.solid.50}",
+        "comment": "Fill for interactive elements in a disabled state (button)."
+      },
+      // Overlay
+      "overlay": {
+        "value": "{color.grey.light.500}",
+        "comment": "Overlay - Fill for transparent page overlays behind modal dialogs."
+      },
+      // System
+      "brand": {
+        "value": "{color.grey.solid.900}",
+        "comment": "Fill for high contrast interactive elements like buttons."
+      },
+      "info": {
+        "value": "{color.blue.solid.0}",
+        "comment": "Fill for high contrast elements that convey neutral information."
+      },
+      "success": {
+        "value": "{color.green.solid.0}",
+        "comment": "Fill for high contrast elements that indicate a positive message."
+      },
+      "warning": {
+        "value": "{color.yellow.solid.0}",
+        "comment": "Fill for high contrast elements that warn people to be cautious."
+      },
+      "error": {
+        "value": "{color.red.solid.0}",
+        "comment": "Fill for low contrast elements that indicate a negative message like error alerts and badges."
+      },
+      "inverse": {
+        "strong": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Neutral fill for high contrast foreground components on high contrast backgrounds."
+        },
+        "weak": {
+          "value": "{color.grey.solid.500}",
+          "comment": "Neutral fill for low contrast foreground components on high contrast backgrounds."
+        },
+        "hover": {
+          "value": "{color.grey.solid.500}",
+          "comment": "Fill for interactive elements on high contrast backgrounds in a hover state."
+        },
+        "active": {
+          "value": "{color.grey.solid.400}",
+          "comment": "Fill for interactive elements on high contrast backgrounds in a press state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.100}",
+          "comment": "Fill for interactive elements on high contrast backgrounds in a disabled state."
+        }
+      },
+      // Drawer and Search input
+      "bg-bar": {
+        "value": "{color.grey.solid.50}"
+      },
+      // Product Detail Page
+      "product-image": {
+        "value": "{color.grey.solid.50}"
+      },
+      "product-card-image": {
+        "value": "{color.grey.solid.30}"
+      },
+      // Review progress bar
+      "review-progress-bar-base": {
+        "value": "{color.grey.solid.30}"
+      },
+      "review-progress-bar-active": {
+        "value": "{color.green.solid.300}"
+      }
+    }
+  }
+}

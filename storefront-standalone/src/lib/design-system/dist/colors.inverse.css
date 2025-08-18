@@ -1,0 +1,23 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 15 Aug 2025 19:46:58 GMT
+ */
+
+.inverse {
+  --color-fill-inverse-strong: #1D1D1B;
+  --color-fill-inverse-weak: #D2D2D1;
+  --color-fill-inverse-hover: #D2D2D1;
+  --color-fill-inverse-active: #D2D2D1;
+  --color-fill-inverse-disabled: #F5F5F5;
+  --color-text-inverse-strong: #333333;
+  --color-text-inverse-success: #125531;
+  --color-text-inverse-error: #BE2100;
+  --color-fill-weak: #8E8E8D;
+  --color-fill-strong: #FFFFFF;
+  --color-fill-hover: #8E8E8D;
+  --color-fill-active: #A5A5A4;
+  --color-fill-disabled: #E8E8E8;
+  --color-text-strong: #FFFFFF;
+  --color-text-success: #FFFFFF;
+  --color-text-error: #FFFFFF;
+}

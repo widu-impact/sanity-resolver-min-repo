@@ -1,0 +1,18 @@
+{
+  "color": {
+    "yellow": {
+      "solid": {
+        "0": {
+          "value": "#FFE59B",
+          "comment": "Decorative borders, like dividing lines, that are not critical to identifying interface elements."
+        },
+        "100": {
+          "value": "#FAB51D",
+          "comment": "Non-decorative borders on interface elements like alerts and badges. Also used for icons."
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

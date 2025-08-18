@@ -1,0 +1,170 @@
+{
+  "displays": {
+    "addons": {
+      "color": {
+        "border": {
+          "addon": {
+            "value": "{color.grey.solid.200}",
+            "comment": "Border color around an individual addon entry"
+          }
+        },
+        "background": {
+          "image": {
+            "value": "{color.grey.solid.50}",
+            "comment": "Background behind an addon's product image"
+          }
+        }
+      }
+    },
+    "back-in-stock": {
+      "color": {
+        "background": {
+          "container": {
+            "value": "{color.grey.solid.50}",
+            "comment": "Background of the back in stock notification box"
+          }
+        }
+      }
+    },
+    "bundles": {
+      "color": {
+        "border": {
+          "bundle": {
+            "value": "{color.grey.solid.200}",
+            "comment": "Border color around an individual bundle entry"
+          }
+        },
+        "background": {
+          "image": {
+            "value": "{color.grey.solid.50}",
+            "comment": "Background behind a bundle's product image"
+          }
+        }
+      }
+    },
+    "image": {
+      "color": {
+        "background": {
+          "image": {
+            "value": "{color.grey.solid.50}",
+            "comment": "Neutral image area background"
+          }
+        },
+        "stroke": {
+          "border": {
+            "value": "1px solid {color.grey.solid.200}",
+            "comment": "Default border around product images"
+          },
+          "selected": {
+            "value": "{color.green.solid.400}",
+            "comment": "color applied to the bottom border of a selected thumbnail"
+          }
+        }
+      }
+    },
+    "information": {
+      "color": {
+        "border": {
+          "accordion": {
+            "value": "{color.grey.solid.100}",
+            "comment": "Divider line between the accordion and the main content on desktop"
+          }
+        }
+      }
+    },
+    "notification": {
+      "color": {
+        "background": {
+          "base": {
+            "value": "{color.grey.solid.50}",
+            "comment": "Default background for generic notifications"
+          }
+        },
+        "text": {
+          "base": {
+            "value": "{color.grey.solid.1000}",
+            "comment": "Default text color for generic notifications"
+          }
+        }
+      }
+    },
+    "rating": {
+      "color": {
+        "fill": {
+          "inactive": {
+            "value": "{color.grey.solid.200}",
+            "comment": "Fill color for the inactive part of the rating meter"
+          },
+          "active": {
+            "value": "{color.grey.solid.1100}",
+            "comment": "Fill color for the active part of the rating meter"
+          }
+        }
+      }
+    },
+    "size": {
+      "color": {
+        "border": {
+          "default": {
+            "value": "{color.grey.solid.200}",
+            "comment": "Border color for an un selected size tile"
+          },
+          "selected": {
+            "value": "{color.green.solid.400}",
+            "comment": "Border color for the selected size tile"
+          }
+        },
+        "background": {
+          "selected": {
+            "value": "{color.grey.solid.100}",
+            "comment": "Background of the selected size tile"
+          },
+          "label": {
+            "default": {
+              "value": "{color.grey.solid.0}",
+              "comment": "Background behind the size label when out of stock"
+            }
+          }
+        },
+        "text": {
+          "selected": {
+            "value": "{color.green.solid.400}",
+            "comment": "Text color for the selected size tile"
+          },
+          "label": {
+            "default": {
+              "value": "{color.grey.solid.200}",
+              "comment": "Text color on an out of stock label"
+            },
+            "selected": {
+              "value": "{color.grey.solid.1100}",
+              "comment": "Text color when an out of stock tile is also selected"
+            }
+          }
+        },
+        "strike": {
+          "inactive": {
+            "value": "{color.grey.solid.200}",
+            "comment": "color of the diagonal strike lines on out of stock tiles"
+          }
+        }
+      }
+    },
+    "variant": {
+      "color": {
+        "background": {
+          "tile": {
+            "value": "{color.grey.solid.50}",
+            "comment": "Background of each variant swatch / tile"
+          }
+        },
+        "shadow": {
+          "selected": {
+            "value": "{color.grey.solid.1000}",
+            "comment": "color for the bottom inset border of a selected swatch"
+          }
+        }
+      }
+    }
+  }
+}

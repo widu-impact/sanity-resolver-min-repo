@@ -1,0 +1,82 @@
+// Text colors in light mode.
+// Since the core colors has transparency, the colors should work on most surface/backgrounds.
+// If working with solid colors, more tokens can be added if need be.
+{
+  "color": {
+    "type": "color",
+    "text": {
+      "solid": {
+        "value": "{color.grey.solid.1000}",
+        "comment": "Primary text, like headings, body content, and form labels to ensure it’s prominent and legible. - don't change on DIM"
+      },
+      "button": {
+        "value": "{color.grey.solid.0}",
+        "comment": "Primary text, like headings, body content, and form labels to ensure it’s prominent and legible. - don't change on DIM"
+      },
+      "strong": {
+        "value": "{color.grey.solid.1000}",
+        "comment": "Text colors that change on DIM surfaces."
+      },
+      "weak": {
+        "value": "{color.grey.solid.500}",
+        "comment": "Secondary text to make it less prominent."
+      },
+      "campaign": {
+        "value": "{color.red.solid.200}",
+        "comment": "Text color for campaign price."
+      },
+      // States
+      "initial": {
+        "value": "{color.grey.solid.600}",
+        "comment": "Text used in elements with a disabled state, like disabled buttons."
+      },
+      "disabled": {
+        "value": "{color.grey.solid.200}",
+        "comment": "Text used in elements with a disabled state, like disabled buttons."
+      },
+      "select-disabled": {
+        "value": "{color.grey.solid.500}",
+        "comment": "Text used in elements with Select Disabled State."
+      },
+      // System
+      "brand": {
+        "value": "{color.grey.solid.900}",
+        "comment": "Text links to help indicate they’re interactive."
+      },
+      "brand-black": {
+        "value": "{color.grey.solid.1100}"
+      },
+      "info": {
+        "value": "{color.blue.solid.100}",
+        "comment": "Text that indicates a neutral message such as an information."
+      },
+      "success": {
+        "value": "{color.green.solid.200}",
+        "comment": "Fill for high contrast elements that indicate a positive message."
+      },
+      "warning": {
+        "value": "{color.yellow.solid.100}",
+        "comment": "Text that indicates a neutral message such as an information."
+      },
+      "error": {
+        "value": "{color.red.solid.200}",
+        "comment": "Text that indicates a negative message such as an error that needs urgent attention."
+      },
+      // Light colors here, which are suitable on dim surfaces/backgrounds
+      "inverse": {
+        "strong": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Primary text on high contrast backgrounds."
+        },
+        "success": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Fill for high contrast elements that indicate a positive message."
+        },
+        "error": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Text that indicates a negative message such as an error that needs urgent attention."
+        }
+      }
+    }
+  }
+}

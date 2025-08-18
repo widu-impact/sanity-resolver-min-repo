@@ -1,0 +1,28 @@
+{
+  "order-confirmation": {
+    "background": {
+      "basket-container": {
+        "value": "{color.grey.solid.0}",
+        "comment": "Background of the main basket card"
+      },
+      "basket-title": {
+        "value": "{color.grey.solid.25}",
+        "comment": "Background of the basket header row"
+      },
+      "tile": {
+        "value": "{color.grey.solid.0}",
+        "comment": "Background of individual tiles (delivery, basket item, etc.)"
+      }
+    },
+    "border": {
+      "value": "{color.grey.solid.200}",
+      "comment": "Standard border for cards, dividers and tiles"
+    },
+    "text": {
+      "discount": {
+        "value": "{color.grey.solid.300}",
+        "comment": "Muted text used for discounts and subtle labels"
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "inputs": {
+    "shared": {
+      "size": {
+        "value": "1.125rem",
+        "comment": "Default global size for radio button and input checkbox."
+      },
+      "background": {
+        "default": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Default background color for radio button and input checkbox."
+        }
+      },
+      "fill": {
+        "default": {
+          "value": "{color.grey.solid.100}",
+          "comment": "Default fill color for radio button and input checkbox."
+        },
+        "checked": {
+          "value": "{color.green.solid.300}",
+          "comment": "Checked fill color for radio button and input checkbox."
+        }
+      },
+      "stroke": {
+        "default": {
+          "value": "{color.grey.solid.200}",
+          "comment": "Default stroke color for radio button and input checkbox."
+        },
+        "hover": {
+          "value": "{color.grey.solid.700}",
+          "comment": "Hover state stroke color for radio button and input checkbox."
+        },
+        "error": {
+          "value": "{color.red.solid.100}",
+          "comment": "Error state stroke color for radio button and input checkbox."
+        }
+      }
+    },
+    "radio": {
+      "fill": {
+        "value": "{color.grey.solid.0}",
+        "comment": "Fill color of the radio button."
+      },
+      "checkmark": {
+        "stroke": {
+          "default": {
+            "value": "{color.grey.solid.700}",
+            "comment": "Fill color of the checkmark when selected."
+          },
+          "selected": {
+            "value": "{color.green.solid.300}",
+            "comment": "Fill color of the checkmark when selected."
+          }
+        }
+      }
+    },
+    "checkbox": {
+      "gap": {
+        "value": "{spacing.4}",
+        "comment": "Spacing between the checkbox and the label."
+      },
+      "width": {
+        "global": {
+          "value": "1rem",
+          "comment": "Width of the checkbox."
+        },
+        "checkmark": {
+          "value": "0.5rem",
+          "comment": "Width of the checkmark."
+        }
+      },
+      "checkmark": {
+        "fill": {
+          "selected": {
+            "value": "{color.green.solid.300}",
+            "comment": "Fill color of the checkmark when selected."
+          }
+        }
+      }
+    },
+    "toggle": {
+      "size:": {
+        "default": {
+          "width": {
+            "value": "{spacing.32}",
+            "comment": "Width of the toggle."
+          },
+          "height": {
+            "value": "{spacing.16}",
+            "comment": "Height of the toggle."
+          }
+        },
+        "large": {
+          "width": {
+            "value": "{spacing.36}",
+            "comment": "Width of the toggle."
+          },
+          "height": {
+            "value": "{spacing.20}",
+            "comment": "Height of the toggle."
+          }
+        }
+      },
+      "circle": {
+        "fill": {
+          "default": {
+            "value": "{color.grey.solid.0}",
+            "comment": "Fill color of the circle on default state."
+          },
+          "selected": {
+            "value": "{color.grey.solid.0}",
+            "comment": "Fill color of the circle when selected."
+          },
+          "disabled": {
+            "value": "{color.grey.solid.50}",
+            "comment": "Fill color of the circle when disabled."
+          }
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{color.grey.solid.300}",
+          "comment": "Background color of the toggle."
+        },
+        "selected": {
+          "value": "{color.green.solid.300}",
+          "comment": "Background color of the toggle when checked."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.300}",
+          "comment": "Background color of the toggle when disabled."
+        }
+      }
+    },
+    "text": {
+      "height": {
+        "small": {
+          "value": "{spacing.40}",
+          "comment": "Default minimum height for text input."
+        },
+        "medium": {
+          "value": "{spacing.48}",
+          "comment": "Medium minimum height for text input."
+        },
+        "large": {
+          "value": "{spacing.56}",
+          "comment": "Large minimum height for text input."
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Background color of the text input."
+        },
+        "action": {
+          "value": "{color.grey.solid.50}",
+          "comment": "Background color of the text input when action is active."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.100}",
+          "comment": "Background color of the text input when disabled."
+        }
+      },
+      "stroke": {
+        "default": {
+          "value": "{color.grey.solid.200}",
+          "comment": "Stroke color of the text input."
+        },
+        "action": {
+          "value": "{color.grey.solid.50}",
+          "comment": "Background color of the text input when action is active."
+        },
+        "hover": {
+          "value": "{color.grey.solid.700}",
+          "comment": "Stroke color of the text input."
+        },
+        "invalid": {
+          "value": "{color.red.solid.100}",
+          "comment": "Stroke color of the text input when invalid."
+        },
+        "success": {
+          "value": "{color.green.solid.200}",
+          "comment": "Stroke color of the text input when success."
+        }
+      },
+      "font": {
+        "color": {
+          "default": {
+            "value": "{color.grey.solid.600}",
+            "comment": "Font color used in the text input."
+          },
+          "disabled": {
+            "value": "{color.grey.solid.300}",
+            "comment": "Font color used in the text input when disabled."
+          }
+        }
+      }
+    }
+  }
+}

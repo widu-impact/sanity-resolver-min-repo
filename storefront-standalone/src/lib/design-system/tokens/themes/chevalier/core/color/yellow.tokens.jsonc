@@ -1,0 +1,16 @@
+{
+  "color": {
+    "yellow": {
+      "solid": {
+        "200": {
+          "value": "#D7A95A",
+          "comment": "Accent Yellow"
+        },
+        "300": {
+          "value": "#FFB31F",
+          "comment": "Status Yellow"
+        }
+      }
+    }
+  }
+}

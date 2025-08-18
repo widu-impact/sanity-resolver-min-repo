@@ -1,0 +1,67 @@
+{
+  "messageBanner": {
+    "1": {
+      "fill": {
+        "value": "{color.green.solid.0}"
+      },
+      "text": {
+        "value": "{color.green.solid.400}"
+      },
+      "comment": "Light Green combination for Message Banner."
+    },
+    "2": {
+      "fill": {
+        "value": "{color.green.solid.200}"
+      },
+      "text": {
+        "value": "{color.green.solid.400}"
+      },
+      "comment": "Green combination for Message Banner."
+    },
+    "3": {
+      "fill": {
+        "value": "{color.red.solid.0}"
+      },
+      "text": {
+        "value": "{color.red.solid.200}"
+      },
+      "comment": "Red combination for Message Banner."
+    },
+    "4": {
+      "fill": {
+        "value": "{color.purple.solid.0}"
+      },
+      "text": {
+        "value": "{color.purple.solid.100}"
+      },
+      "comment": "Purple combination for Message Banner."
+    },
+    "5": {
+      "fill": {
+        "value": "{color.blue.solid.0}"
+      },
+      "text": {
+        "value": "{color.blue.solid.100}"
+      },
+      "comment": "Blue combination for Message Banner."
+    },
+    "6": {
+      "fill": {
+        "value": "{color.grey.solid.1100}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      },
+      "comment": "Black combination for Message Banner."
+    },
+    "7": {
+      "fill": {
+        "value": "{color.grey.solid.1200}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      },
+      "comment": "Eerie Black combination for Message Banner."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "checkout": {
+    "steps": {
+      "font": {
+        "xs": {
+          "value": "{fontSize.12}",
+          "comment": "Text size for checkout steps."
+        },
+        "sm": {
+          "value": "{fontSize.16}",
+          "comment": "Text size for checkout steps on small screens."
+        }
+      }
+    },
+    "fill": {
+      "value": "{color.grey.solid.25}",
+      "comment": "Fill for the basket."
+    },
+    "stroke": {
+      "value": "{color.grey.solid.200}",
+      "comment": "Stroke for the basket."
+    },
+    "title": {
+      "text": {
+        "color": {
+          "value": "{color.green.solid.400}",
+          "comment": "Text color for title."
+        },
+        "weight": {
+          "value": "{fontWeight.semiBold}",
+          "comment": "Text weight for title."
+        }
+      },
+      "fill": {
+        "value": "{color.green.solid.0}",
+        "comment": "Background for title."
+      },
+      "stroke": {
+        "value": "{color.grey.solid.200}",
+        "comment": "Background for title."
+      }
+    }
+  }
+}

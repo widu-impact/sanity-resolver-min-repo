@@ -1,0 +1,10 @@
+{
+  "tooltip": {
+    "color": {
+      "background": {
+        "value": "{color.grey.solid.0}",
+        "comment": "Background color of the tooltip surface"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "color": {
+    "orange": {
+      "solid": {
+        "200": {
+          "value": "#FF8039",
+          "comment": "Orange"
+        }
+      }
+    }
+  }
+}

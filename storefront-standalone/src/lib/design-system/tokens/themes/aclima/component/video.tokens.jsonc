@@ -1,0 +1,14 @@
+{
+  "video": {
+    "heading": {
+      "text-transform": {
+        "value": "none",
+        "comment": "Text transform for the heading"
+      },
+      "font-weight": {
+        "value": "700",
+        "comment": "Font weight for the heading"
+      }
+    }
+  }
+}

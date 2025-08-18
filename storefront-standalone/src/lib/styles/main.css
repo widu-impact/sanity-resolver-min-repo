@@ -1,0 +1,50 @@
+html,
+body {
+  height: 100%;
+}
+
+#__next {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font: var(--typography-body-md);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-y: scroll;
+}
+
+html:has(dialog:modal[open]) {
+  padding-right: var(--scrollbar-width);
+  & body {
+    overflow: hidden;
+  }
+}
+
+main {
+  flex: 1;
+}
+
+dialog {
+  color: inherit;
+  background: unset;
+}
+
+*:focus-visible {
+  outline: none;
+  @media (--sm) {
+    outline-style: solid;
+    outline-color: var(--color-stroke-focus);
+    outline-width: var(--outline-width);
+    outline-offset: var(--outline-offset);
+  }
+}
+
+hr {
+  height: 1px;
+  border: none;
+  border-bottom: 1px solid var(--color-stroke-weaker);
+}

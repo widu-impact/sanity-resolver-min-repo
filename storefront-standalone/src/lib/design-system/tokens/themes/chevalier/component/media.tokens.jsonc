@@ -1,0 +1,47 @@
+{
+  "media": {
+    "color": {
+      "black": {
+        "value": "{color.grey.solid.1200}"
+      },
+      "eerie-black": {
+        "value": "{color.grey.solid.1100}"
+      },
+      "white": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "hero": {
+      "heading": {
+        "text-transform": {
+          "value": "none",
+          "comment": "Text transform for the heading"
+        }
+      }
+    },
+    "image": {
+      "heading": {
+        "text-transform": {
+          "value": "none",
+          "comment": "Text transform for the heading"
+        },
+        "font-weight": {
+          "value": "700",
+          "comment": "Font weight for the heading"
+        }
+      }
+    },
+    "video": {
+      "heading": {
+        "text-transform": {
+          "value": "none",
+          "comment": "Text transform for the heading"
+        },
+        "font-weight": {
+          "value": "700",
+          "comment": "Font weight for the heading"
+        }
+      }
+    }
+  }
+}

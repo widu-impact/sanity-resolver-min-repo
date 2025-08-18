@@ -1,0 +1,28 @@
+:root {
+  --page-max: 1440px;
+  --header-height: 123px;
+  --layer-checkout-min-header-height: 130px;
+  --logo-color: var(--color-fill-brand);
+
+  /* Stacking variables */
+  --layer-modal: 900;
+  --layer-overlay: 800;
+  --layer-dropdown: 700;
+  --layer-header: 600;
+  --layer-main: var(--zi-1);
+  --layer-footer: 500;
+
+  --zi-0: 0;
+  --zi-1: 1;
+  --zi-2: 2;
+  --zi-3: 3;
+
+  /* Motion */
+  --motion-easing-accelerate: cubic-bezier(0.2, 0, 0, 1);
+  --motion-easing-emphasized-accelerate: cubic-bezier(0.42, 0, 0.58, 1);
+
+  --motion-duration-extra-short: 50ms;
+  --motion-duration-short: 100ms;
+  --motion-duration-medium: 250ms;
+  --motion-duration-long: 450ms;
+}

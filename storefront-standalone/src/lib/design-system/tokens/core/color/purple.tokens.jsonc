@@ -1,0 +1,18 @@
+{
+  "color": {
+    "purple": {
+      "solid": {
+        "0": {
+          "value": "#D9CDFF",
+          "comment": "Outlet Light - Purple color for Background on Outlet Badge."
+        },
+        "100": {
+          "value": "#391960",
+          "comment": "Outlet Dark - Purple color for Text on Outlet Badge."
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

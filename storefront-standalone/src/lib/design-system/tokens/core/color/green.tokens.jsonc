@@ -1,0 +1,30 @@
+{
+  "color": {
+    "green": {
+      "solid": {
+        "0": {
+          "value": "#EBF4E9",
+          "comment": "Light Green - Brand color for lighter backgrounds, for example: USP, Badge, Message Banner"
+        },
+        "100": {
+          "value": "#D6F5CA",
+          "comment": "Sustainable Light - Brand color for lighter backgrounds."
+        },
+        "200": {
+          "value": "#A0F5AD",
+          "comment": "Green used on Message Banner and on Success messages"
+        },
+        "300": {
+          "value": "#52A456",
+          "comment": "Not on figma variables - used on Toogle"
+        },
+        "400": {
+          "value": "#125531",
+          "comment": "Primary Green - Brand color for darker backgrounds, for example: footer, campaign badges"
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

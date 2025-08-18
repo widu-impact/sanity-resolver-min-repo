@@ -1,0 +1,14 @@
+{
+  "color": {
+    "orange": {
+      "solid": {
+        "200": {
+          "value": "#F76000",
+          "comment": "Accent Orange"
+        }
+      },
+      "light": {},
+      "dark": {}
+    }
+  }
+}

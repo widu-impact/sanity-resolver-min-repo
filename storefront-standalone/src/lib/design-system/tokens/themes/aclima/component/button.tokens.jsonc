@@ -1,0 +1,463 @@
+{
+  "button": {
+    "type": "button",
+    /* Variants */
+    "primary": {
+      "text": {
+        "default": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Primary button in its default state."
+        },
+        "active": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Primary button in its active state."
+        },
+        "hover": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Primary button in its hover state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.100}",
+          "comment": "Primary button in its disabled state."
+        }
+      },
+      "fill": {
+        "default": {
+          "value": "{color.grey.solid.1200}",
+          "comment": "Primary button in its default state."
+        },
+        "active": {
+          "value": "{color.grey.solid.1200}",
+          "comment": "Primary button in its active state."
+        },
+        "hover": {
+          "value": "{color.grey.solid.1200}",
+          "comment": "Primary button in its hover state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.50}",
+          "comment": "Primary button in its disabled state."
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{elevation.md}",
+          "comment": "Primary button in its default state."
+        },
+        "disabled": {
+          "value": "none",
+          "comment": "Primary button in its disabled state."
+        }
+      },
+      "border-radius": {
+        "value": "0px",
+        "comment": "Primary button border radius."
+      }
+    },
+    "secondary": {
+      "width": {
+        "value": "1px",
+        "comment": "Secondary button border width."
+      },
+      "text": {
+        "default": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Secondary button in its default state."
+        },
+        "active": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Secondary button in its active state."
+        },
+        "hover": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Secondary button in its hover state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.100}",
+          "comment": "Secondary button in its disabled state."
+        }
+      },
+      "fill": {
+        "default": {
+          "value": "{color.grey.solid.1100}",
+          "comment": "Secondary button in its default state."
+        },
+        "active": {
+          "value": "{color.grey.solid.1100}",
+          "comment": "Secondary button in its active state."
+        },
+        "hover": {
+          "value": "{color.grey.solid.1100}",
+          "comment": "Secondary button in its hover state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.50}",
+          "comment": "Secondary button in its disabled state."
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "{elevation.md}",
+          "comment": "Secondary button in its default state."
+        },
+        "disabled": {
+          "value": "none",
+          "comment": "Secondary button in its disabled state."
+        }
+      },
+      "border-radius": {
+        "value": "0px",
+        "comment": "Secondary button border radius."
+      }
+    },
+    "tertiary": {
+      "width": {
+        "value": "1px",
+        "comment": "Tertiary (outlined) button border width."
+      },
+      "fill": {
+        "default": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Tertiary (outlined) button in its default state."
+        },
+        "active": {
+          "value": "{color.grey.solid.1000}",
+          "comment": "Tertiary (outlined) button in its active state."
+        },
+        "hover": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Tertiary (outlined) button in its hover state."
+        },
+        "disabled": {
+          "value": "transparent",
+          "comment": "Tertiary (outlined) button in its disabled state."
+        }
+      },
+      "stroke": {
+        "default": {
+          "value": "{color.grey.solid.200}",
+          "comment": "Tertiary (outlined) button in its default state."
+        },
+        "active": {
+          "value": "{color.grey.solid.1000}",
+          "comment": "Tertiary (outlined) button in its active state."
+        },
+        "hover": {
+          "value": "{color.grey.solid.300}",
+          "comment": "Tertiary (outlined) button in its hover state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.300}",
+          "comment": "Tertiary (outlined) button in its disabled state."
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{color.grey.solid.1000}",
+          "comment": "Tertiary (outlined) button in its default state."
+        },
+        "active": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Tertiary (outlined) button in its active state."
+        },
+        "hover": {
+          "value": "{color.grey.solid.1000}",
+          "comment": "Tertiary (outlined) button in its hover state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.200}",
+          "comment": "Tertiary (outlined) button in its disabled state."
+        }
+      },
+      "shadow": {
+        "default": {
+          "value": "none",
+          "comment": "Tertiary (outlined) button in its disabled state."
+        },
+        "disabled": {
+          "value": "none",
+          "comment": "Tertiary (outlined) button in its disabled state."
+        }
+      },
+      "border-radius": {
+        "value": "0px",
+        "comment": "Tertiary (outlined) button border radius."
+      }
+    },
+    "ghost": {
+      "text": {
+        "default": {
+          "value": "{color.grey.solid.1000}",
+          "comment": "Ghost button in its default state."
+        },
+        "hover": {
+          "value": "{color.green.solid.300}",
+          "comment": "Ghost button in its hover state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.200}",
+          "comment": "Ghost button in its disabled state."
+        }
+      },
+      "shadow": {
+        "disabled": {
+          "value": "none",
+          "comment": "Ghost button in its disabled state."
+        }
+      }
+    },
+    "menu": {
+      "height": {
+        "mobile": {
+          "value": "25px",
+          "comment": "Menu button mobile height."
+        },
+        "desktop": {
+          "value": "40px",
+          "comment": "Menu button desktop height."
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{color.grey.solid.1100}",
+          "comment": "Menu button in its default state."
+        },
+        "hover": {
+          "value": "{color.green.solid.200}",
+          "comment": "Menu button in its hover state."
+        }
+      },
+      "border-radius": {
+        "value": "0px",
+        "comment": "Menu button border radius."
+      },
+      "font": {
+        "family": {
+          "value": "{fontFamily.primary}"
+        },
+        "size": {
+          "value": "{fontSize.14}"
+        },
+        "weight": {
+          "value": "{fontWeight.semiBold}"
+        }
+      }
+    },
+    "menu-secondary": {
+      "height": {
+        "mobile": {
+          "value": "25px",
+          "comment": "Menu button mobile height."
+        },
+        "desktop": {
+          "value": "40px",
+          "comment": "Menu button desktop height."
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{color.grey.solid.1100}",
+          "comment": "Menu Secondary button in its default state."
+        },
+        "hover": {
+          "value": "{color.green.solid.200}",
+          "comment": "Menu Secondary button in its hover state."
+        },
+        "disabled": {
+          "value": "{color.grey.solid.50}",
+          "comment": "Menu Secondary button in its disabled state."
+        }
+      },
+      "border-radius": {
+        "value": "0px",
+        "comment": "Menu Secondary border radius."
+      },
+      "font": {
+        "family": {
+          "value": "{fontFamily.primary}"
+        },
+        "size": {
+          "value": "{fontSize.12}"
+        },
+        "weight": {
+          "value": "{fontWeight.semiBold}"
+        }
+      }
+    },
+    "mega-menu": {
+      "height": {
+        "mobile": {
+          "value": "2rem",
+          "comment": "Mega menu button mobile height."
+        },
+        "desktop": {
+          "value": "1.5rem",
+          "comment": "Mega menu button desktop height."
+        }
+      },
+      "font": {
+        "size": {
+          "value": "{fontSize.14}",
+          "comment": "Mega menu button font size."
+        },
+        "weight": {
+          "value": "600",
+          "comment": "Mega menu button font weight."
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{color.grey.solid.1100}",
+          "comment": "Mega menu button in its default state."
+        },
+        "hover": {
+          "value": "{color.green.solid.200}",
+          "comment": "Mega menu button in its hover state."
+        }
+      },
+      "fill": {
+        "default": {
+          "value": "{color.grey.solid.0}",
+          "comment": "Mega menu button in its default state."
+        },
+        "hover": {
+          "value": "{color.grey.solid.100}",
+          "comment": "Mega menu button in its hover state."
+        }
+      },
+      "border-radius": {
+        "value": "0px",
+        "comment": "Menu menu button border radius."
+      }
+    },
+    "link-button": {
+      "text": {
+        "default": {
+          "value": "{color.grey.solid.1100}",
+          "comment": "Link button in its default state."
+        },
+        "hover": {
+          "value": "{color.green.solid.200}",
+          "comment": "Link button in its hover state."
+        }
+      }
+    },
+    "link": {
+      "underline": {
+        "value": "1px",
+        "comment": "Link button in its default state."
+      }
+    },
+    /* Sizes */
+    "extra-small": {
+      "height": {
+        "value": "2rem",
+        "comment": "Extra small button height."
+      },
+      "padding-v": {
+        "value": "{spacing.8}",
+        "comment": "Extra small button padding vertical."
+      },
+      "padding-h": {
+        "value": "{spacing.12}",
+        "comment": "Extra small button padding horizontal."
+      },
+      "font": {
+        "size": {
+          "value": "{fontSize.12}"
+        },
+        "weight": {
+          "value": "500"
+        }
+      }
+    },
+    "small": {
+      "height": {
+        "value": "2rem",
+        "comment": "Small button height."
+      },
+      "padding-v": {
+        "value": "{spacing.4}",
+        "comment": "Small button padding vertical."
+      },
+      "padding-h": {
+        "value": "{spacing.12}",
+        "comment": "Small button padding horizontal."
+      },
+      "font": {
+        "size": {
+          "value": "{fontSize.14}"
+        },
+        "weight": {
+          "value": "500"
+        }
+      }
+    },
+    "default": {
+      "height": {
+        "value": "2.5rem",
+        "comment": "Default button height."
+      },
+      "padding-v": {
+        "value": "{spacing.8}",
+        "comment": "Default button padding vertical."
+      },
+      "padding-h": {
+        "value": "{spacing.16}",
+        "comment": "Default button padding horizontal."
+      },
+      "font": {
+        "size": {
+          "value": "{fontSize.14}"
+        },
+        "weight": {
+          "value": "500"
+        }
+      }
+    },
+    "large": {
+      "height": {
+        "value": "3rem",
+        "comment": "Large button height."
+      },
+      "padding-v": {
+        "value": "{spacing.12}",
+        "comment": "Large button padding vertical."
+      },
+      "padding-h": {
+        "value": "{spacing.24}",
+        "comment": "Large button padding horizontal."
+      },
+      "font": {
+        "size": {
+          "value": "{fontSize.16}"
+        },
+        "weight": {
+          "value": "500"
+        }
+      }
+    },
+    "extra-large": {
+      "height": {
+        "value": "3.5rem",
+        "comment": "Extra large button height."
+      },
+      "padding-v": {
+        "value": "{spacing.16}",
+        "comment": "Extra large button padding vertical."
+      },
+      "padding-h": {
+        "value": "{spacing.24}",
+        "comment": "Extra large button padding horizontal."
+      },
+      "font": {
+        "size": {
+          "value": "{fontSize.16}"
+        },
+        "weight": {
+          "value": "500"
+        }
+      }
+    }
+  }
+}

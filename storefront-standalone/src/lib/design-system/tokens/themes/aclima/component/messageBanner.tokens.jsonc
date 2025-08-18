@@ -1,0 +1,28 @@
+{
+  "messageBanner": {
+    "1": {
+      "fill": {
+        "value": "{color.orange.solid.200}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "2": {
+      "fill": {
+        "value": "{color.green.solid.200}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    },
+    "3": {
+      "fill": {
+        "value": "{color.grey.solid.1200}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      }
+    }
+  }
+}

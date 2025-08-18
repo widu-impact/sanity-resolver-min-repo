@@ -1,0 +1,62 @@
+{
+  "productCard": {
+    "border": {
+      "color": {
+        "value": "{color.grey.solid.200}",
+        "comment": "Border color for the product card"
+      }
+    },
+    "background": {
+      "value": "{color.grey.solid.0}",
+      "comment": "Background color for the product card"
+    },
+    "review-score": {
+      "background": {
+        "value": "{color.grey.solid.0}",
+        "comment": "Background color for review score container"
+      }
+    },
+    "image-container": {
+      "background": {
+        "value": "{color.grey.solid.30}",
+        "comment": "Background color for the image container"
+      }
+    },
+    "multi-color-circle": {
+      "background": {
+        "value": "conic-gradient(#125531 0deg 90deg, #2C6BCC 90deg 180deg, #BE2100 180deg 270deg, #FAB51D 270deg 360deg)",
+        "comment": "Gradient background for multi-color circle"
+      }
+    },
+    "white-color-circle": {
+      "border": {
+        "value": "{outline.width} solid {color.grey.solid.200}",
+        "comment": "Border style for white color circle"
+      }
+    },
+    "availability-circle": {
+      "background": {
+        "value": "{color.green.solid.300}",
+        "comment": "Background color for availability indicator"
+      }
+    },
+    "size-color-wrapper": {
+      "border-bottom": {
+        "value": "1px solid {color.grey.solid.200}",
+        "comment": "Bottom border for size/color section"
+      }
+    },
+    "recommended-price-wrapper": {
+      "path-fill": {
+        "value": "{color.grey.solid.500}",
+        "comment": "Fill color for recommended price icon"
+      }
+    },
+    "price-with-buy-button-wrapper": {
+      "border-bottom": {
+        "value": "1px solid {color.grey.solid.200}",
+        "comment": "Bottom border for price with buy button section"
+      }
+    }
+  }
+}

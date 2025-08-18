@@ -1,0 +1,40 @@
+{
+  "messageBanner": {
+    "1": {
+      "fill": {
+        "value": "{color.green.solid.400}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      },
+      "comment": "Green combination for Message Banner."
+    },
+    "2": {
+      "fill": {
+        "value": "{color.yellow.solid.100}"
+      },
+      "text": {
+        "value": "{color.grey.solid.1200}"
+      },
+      "comment": "Yellow combination for Message Banner."
+    },
+    "3": {
+      "fill": {
+        "value": "{color.grey.solid.1000}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      },
+      "comment": "Grey combination for Message Banner."
+    },
+    "4": {
+      "fill": {
+        "value": "{color.grey.solid.1200}"
+      },
+      "text": {
+        "value": "{color.grey.solid.0}"
+      },
+      "comment": "Black combination for Message Banner."
+    }
+  }
+}

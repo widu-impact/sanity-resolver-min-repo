@@ -1,0 +1,16 @@
+{
+  "color": {
+    "yellow": {
+      "solid": {
+        "100": {
+          "value": "#F4CE47",
+          "comment": "Light Yellow for Milrab secondary buttons and campaigns"
+        },
+        "200": {
+          "value": "#FFB31F",
+          "comment": "Status Yellow"
+        }
+      }
+    }
+  }
+}
