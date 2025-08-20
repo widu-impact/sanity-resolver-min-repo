@@ -77,13 +77,13 @@ STORE_ID=1
 Run three instances in separate terminals:
 ```bash
 # Swedish (default)
-pnpm dev --port 3000
+pnpm dev
 
 # English
-pnpm dev --port 3001
+PORT=3001 pnpm dev
 
 # Norwegian
-pnpm dev --port 3002
+PORT=3002 pnpm dev
 ```
 
 The Studio workspace will reference:
