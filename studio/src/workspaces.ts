@@ -87,3 +87,13 @@ export const getWorkspaces = (): Workspaces => {
 
   return baseWorkspaces[groupName];
 };
+
+export const findWorkspaceLanguageByOrigin = (workspace: Workspace, origin?: string) => {
+  if (!origin) {
+    return undefined;
+  }
+
+  return workspace.languages.find((language) => {
+    return language.storefrontUrl.startsWith(origin);
+  });
+};

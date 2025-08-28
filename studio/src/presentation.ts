@@ -3,7 +3,10 @@ import { defineDocuments } from 'sanity/presentation';
 
 import { PresentationToolNavigator } from './components/PresentationToolNavigator';
 import { pagesName } from './schemaTypes';
-import { Workspace } from './workspaces';
+import { Workspace, findWorkspaceLanguageByOrigin } from './workspaces';
+
+// Used in the previewUrl.previewMode function and the resolve functions
+let currentOrigin: string | undefined;
 
 export function configurePresentationPlugin(workspace: Workspace) {
   if (!workspace || workspace.languages.length === 0) {
@@ -65,9 +68,16 @@ export function configurePresentationPlugin(workspace: Workspace) {
               };
             }
 
+            // Workaround allowing us to determine the language
+            // currentOrigin is set in the previewUrl.previewMode function
+            const workspaceLanguage = findWorkspaceLanguageByOrigin(workspace, currentOrigin);
+
+            if (!workspaceLanguage) {
+              return undefined;
+            }
+
             return {
-              // Default language works fine only in the single domain setup
-              filter: `_type == '${pagesName.P060StandardPage}' && brand == '${workspace.name}' && path.current == $localeOrSlug && language == '${workspace.defaultLanguage}'`,
+              filter: `_type == '${pagesName.P060StandardPage}' && brand == '${workspace.name}' && path.current == $localeOrSlug && language == '${workspaceLanguage.code}'`,
               params: {
                 localeOrSlug: params.localeOrSlug,
               },
@@ -75,9 +85,20 @@ export function configurePresentationPlugin(workspace: Workspace) {
           },
         },
         {
-          // In this case without origin it will always retrieve the default home page no matter what the domain is
           route: '/',
-          filter: `_type == '${pagesName.P020HomePage}' && brand == '${workspace.name}' && language == '${workspace.defaultLanguage}'`,
+          resolve: () => {
+            // Workaround allowing us to determine the language
+            // currentOrigin is set in the previewUrl.previewMode function
+            const workspaceLanguage = findWorkspaceLanguageByOrigin(workspace, currentOrigin);
+
+            if (!workspaceLanguage) {
+              return undefined;
+            }
+
+            return {
+              filter: `_type == '${pagesName.P020HomePage}' && brand == '${workspace.name}' && language == '${workspaceLanguage.code}'`,
+            };
+          },
         },
       ]),
       locations: {
@@ -140,9 +161,13 @@ export function configurePresentationPlugin(workspace: Workspace) {
     allowOrigins: workspace.languages.map((lang) => lang.storefrontUrl),
     previewUrl: {
       initial: workspace.languages[0].storefrontUrl,
-      previewMode: {
-        enable: '/api/draft-mode/enable',
-        disable: '/api/draft-mode/disable',
+      previewMode: async (options) => {
+        currentOrigin = options.targetOrigin;
+
+        return {
+          enable: '/api/draft-mode/enable',
+          disable: '/api/draft-mode/disable',
+        };
       },
     },
     components: {
